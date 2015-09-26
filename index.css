@@ -70,23 +70,30 @@ nav ul {
 /*Begin project list*/
 .container-fluid {
 	margin-top: 60px;
+	color: #D6D6D6;
+	text-align: center;
 }
 
 .project {
 	background-color: rgba(0,0,0,0.75);
-	width: auto;
 	display: inline-block;
 	border-radius: 5px;
 	padding: 0px 20px 0px 20px;
-	margin: 10px 0 10px 0;
-	color: #D6D6D6;
+	margin: 10px 0 10px 0px;
+	max-width: 800px;
 }
 
 .project img {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.project iframe {
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .project p {
-	font-size: 20;
+	font-size: 14;
+	text-align: left;
 }
