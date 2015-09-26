@@ -1,13 +1,16 @@
-html {
-  height: 100%;
-  background: url('images/main.jpg') no-repeat center center;
-  background-size: cover;
+body {
+	height: 100%;
+	background: url('images/main.jpg') no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: transparent;
 }
 
 /*NAV BAR*/
 nav {
 	position: absolute;
 	right: 50px;
+	top: 20px;
 }
 
 nav li {
@@ -49,11 +52,9 @@ nav ul {
 
 
 .body {
-	background-color:#FFF;
-	opacity: 0.75;
+	background-color: rgba(255,255,255,0.75);
 	border-radius: 10px;
 	padding: 0px 20px 0px 20px;
-	font-size: 20;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -64,5 +65,28 @@ nav ul {
 .body p {
 	font-size: 20;
 	color: #000;
-	opacity: 1
+}
+
+/*Begin project list*/
+.container-fluid {
+	margin-top: 60px;
+}
+
+.project {
+	background-color: rgba(0,0,0,0.75);
+	width: auto;
+	display: inline-block;
+	border-radius: 5px;
+	padding: 0px 20px 0px 20px;
+	margin: 10px 0 10px 0;
+	color: #D6D6D6;
+}
+
+.project img {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.project p {
+	font-size: 20;
 }
