@@ -1,0 +1,68 @@
+html {
+  height: 100%;
+  background: url('images/main.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+/*NAV BAR*/
+nav {
+	position: absolute;
+	right: 50px;
+}
+
+nav li {
+	display: inline;
+	padding: 15px;
+}
+
+/*LINKS*/
+nav li a {
+	text-decoration: none;
+	font-size: 20;
+}
+
+/* unvisited link */
+nav li a:link {
+    color: #D6D6D6;
+}
+
+/* visited link */
+nav li a:visited {
+    color: #D6D6D6;
+}
+
+/* mouse over link */
+nav li a:hover {
+    color: white;
+}
+
+/* selected link */
+nav li a:active {
+    color: #D6D6D6;
+}
+/*END LINKS*/
+
+nav ul {
+	padding: 0;
+}
+/*END NAV BAR*/
+
+
+.body {
+	background-color:#FFF;
+	opacity: 0.75;
+	border-radius: 10px;
+	padding: 0px 20px 0px 20px;
+	font-size: 20;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #D6D6D6;
+}
+
+.body p {
+	font-size: 20;
+	color: #000;
+	opacity: 1
+}
